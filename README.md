@@ -1,72 +1,79 @@
-<h1 align="center">Netflix-Recommendation-System</h1>
-<p><font size="3">
-A web-app which can be used to get recommendations for a series/movie, the app recommends a list of media according to list of entered choices of movies/series in your preferred language using <strong>Python</strong> and <strong>Flask</strong> for backend and <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong> for frontend.
-</p>
+🎬 Entertainment Content Recommender
 
- # This web-app contains 3 main pages:
-- [Home Page](#home-page)
-- [Recommendation Page](#recommendation-page)
-- [Movie Detail Page](#movie-detail-page)
-- [Netflix Page](#netflix-page)
+A smart web app that recommends movies and series based on your favorite picks and preferred languages. Built with Python + Flask for the backend and HTML, CSS, and JavaScript for the frontend.
 
-## Home Page
-Here the user can choose list of their favourite movies and series and their preferred language. For example, I have entered a list with 2 Horror Movies(Insidious and Insidious Chapter 2), an action series(Supergirl) and a drama series(Suits) as my list of choices and English and Hindi as my preferred languages.
-Clicking on the Get Started button the user will see the list of recommendations.
-![](/app/static/screenshots/Screenshot-HomePage.png)
+🚀 Features
 
-## Recommendation Page
-Here the user will get poster images of all the recommended movies and series sorted based upon their IMDb Scores.
-![](/app/static/screenshots/Screenshot-RecommendationPage1.png)
-![](/app/static/screenshots/Screenshot-RecommendationPage2.png)
+This web app includes 4 main pages:
 
-Clicking on any poster image, the user will be sent to the Movie Details page for the corresponding title.
+🏠 Home Page
 
-## Movie Detail Page
-Here are the complete details of the user selected title like Genre, Movie Summary, Languages in which movie is available, IMDb scores, Directors, Writers and Actors and so on. User will also find a link at the end of the page for the NEtflix Page of the corresponding title. 
-![](/app/static/screenshots/Screenshot-MovieDetailPage1.png)
-![](/app/static/screenshots/Screenshot-MovieDetailPage2.png)
+Users can select their favorite movies or series and preferred languages.
+For example:
 
-## Netflix Page
-This page is not a part of my web-app but an example what the user will see as the Netflix Page if they choose to click on the Netflix Link for the title.
-You can login into your Netflix account and enjoy watching your selected movie or series from our recommendations.
-![](/app/static/screenshots/Screenshot-NetflixPage.png)
+If you enter Insidious, Insidious Chapter 2, Supergirl, and Suits with English and Hindi as preferred languages, the app will recommend titles with similar genres and styles.
 
-# How To Use
+After clicking Get Started, the app will show the top recommended content.
 
-To be able to use this web app locally in a development environment you will need the following:
+🎥 Recommendation Page
 
-1) You will need [Git](https://git-scm.com) installed on your computer.
+Displays posters of all recommended titles — neatly sorted by IMDb score.
+Clicking any poster takes you to the Movie Detail Page.
 
-2) Then From your terminal, you should do the following:
+📄 Movie Detail Page
 
-```cmd
-# Clone this repository
-git clone https://github.com/garg-priya-creator/Netflix-Recommendation-System.git
+Shows detailed information about the selected title:
 
-# Go into the repository
-cd netflix-recommendation-system
+Genre
 
-# Install flask (if you already haven't)
-pip install flask
+Summary
 
-```
-3) To run this application you don't need to have any special configuration but make sure you don't change the directory of the project otherwise you can recieve errors while you try to run the app.
+Available Languages
 
-4) You can run the Netflix React App using the following command from your terminal:
+IMDb Score
 
-```
-# Run the app
->>set FLASK_APP=app.py
->>flask run
-```
+Directors, Writers, and Actors
+At the end, a Netflix Link is provided to watch the title directly.
 
-# Author
+🍿 Netflix Page
 
-👤 **Priya Garg**
-- Github: https://github.com/garg-priya-creator
-- Linkedin: https://www.linkedin.com/in/priya-garg-9220381b3
-- Email: priyagarg072@gmail.com
+(Not part of the web app)
+This page demonstrates what a user would see after clicking the Netflix link — you can log in and stream the chosen title from your Netflix account.
 
-# Show Your Support 
+⚙️ How to Run Locally
 
-Give a ⭐️ if you like this project!
+To run this app in your local development environment:
+
+1️⃣ Prerequisites
+
+Make sure you have Git and Python (with pip) installed.
+
+2️⃣ Clone the Repository
+git clone https://github.com/sahilkashyap263/Entertainment-Content-Recommender.git
+
+3️⃣ Navigate into the Directory
+cd Entertainment-Content-Recommender
+
+4️⃣ Install Dependencies
+pip install flask pandas scikit-learn
+
+5️⃣ Run the App
+set FLASK_APP=app.py
+flask run
+
+
+Then open your browser and go to http://127.0.0.1:5000/
+
+👤 Author
+
+Sahil Kashyap
+
+GitHub: sahilkashyap263
+
+LinkedIn: linkedin.com/in/sahilkashyap263
+
+Email: sahilkashyap263@gmail.com
+
+💫 Show Your Support
+
+Give this project a ⭐ if you find it cool or useful!
